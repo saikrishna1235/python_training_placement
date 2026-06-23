@@ -3,6 +3,7 @@ class Bike(ABC):
     @abstractclassmethod
     def engine(self):
         pass
+    @abstractclassmethod
     def acc(self):
         pass
 class Bullet(Bike):
