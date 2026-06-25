@@ -7,7 +7,7 @@ def Valid_p(s):
             if not stack:
                 return False
             top=stack.pop()
-            if (ch==")" and top != "(") or  (ch=="{" and top != "{" ) or (ch=="[" and top != "]"):
+            if (ch==")" and top != "(") or  (ch=="{" and top != "}" ) or (ch=="[" and top != "]"):
                 return False
     return len(stack) == 0
 print(Valid_p("){[]})"))
