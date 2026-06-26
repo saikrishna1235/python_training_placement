@@ -12,7 +12,6 @@ def ternary_search(ls,target):
             low=mid1+1
             high=mid2-1
         elif ls[mid1]>target:
-            low=0
             high=mid1-1
         else:
             low=mid2+1
