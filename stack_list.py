@@ -4,7 +4,7 @@ class Stack:
     def push(self,data):
         if len(self.stack) <5:
             self.stack.append(data)
-        else:
+        else: 
             print("OverFlow")
             return
     def pop(self):
