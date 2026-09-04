@@ -1,0 +1,5 @@
+student_name = input("Enter the  name :")
+department = input("Enter the department :")
+college_name = input("Enter the college name :")
+year = int(input("Enter the academic year :"))
+print(f"student name{student_name}\ndepartment{department}\ncollege name{college_name}\nyear {year}")
