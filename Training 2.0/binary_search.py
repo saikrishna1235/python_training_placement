@@ -11,3 +11,6 @@ def binary(number: list, target : int)-> int:
             right = mid -1
     return -1 
 number = [10,20,30,40,50,60,70]
+target = 60
+result=binary(number , target)
+print(result)

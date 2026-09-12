@@ -8,4 +8,4 @@ for i in range(len(s)):
         s = "".join(s_list)  # Convert back to string
         k -= 1  # Reduce the count of available operations
 
-print(s)  # Output: BBBB
+print(s)  # Output: BBBB            
