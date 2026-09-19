@@ -1,5 +1,4 @@
 #implementation of syncronization manually
-
 import threading
 import time
 balance = 1000
@@ -21,7 +20,7 @@ def withdraw(amt):
     balance = curr_bal-amt
 
     unlock()
-
+     
     print(threading.current_thread().name, "Withdraw",amt)
 
 t1 = threading.Thread(target=withdraw, args=(200,), name="thread_1")
