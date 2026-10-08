@@ -28,3 +28,8 @@ llist = LinkedList()
 for i in range(n):
     llist.append(int(input()))
 llist.display() 
+
+# check weather an array is sorted in ascending order or not using recursion 
+# check weather a string is a palindrom or not
+# remove all occurances of the specific character form the given string using Recursion
+# sum of the n digits 
