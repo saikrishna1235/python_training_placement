@@ -60,3 +60,8 @@ s = Stack()
 expression = "a+b*(c^d-e)^(f+g*h)-i"
 print(s.postfixExp("a+b*c"))  # Output: abc*+
 print(s.postfixExp("(a+b)*c")) # Output: ab+c*
+#reverse a string using stack
+#implement a min stack that support push,pop and retrieving the minimum element in constant time
+#implement a stack that support push,pop and retrieving th maximum element in constant time
+#find the intersection point of two linked list
+#rotate a linked list to the left or right by k positions
