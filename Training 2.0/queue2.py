@@ -93,3 +93,8 @@ if __name__ == "__main__":
 
     print(f"\nDeleted from Rear: {dq.deleteRear()}")    # Expected: 20
     dq.display()  # Expected: 5 -> 10
+#display the elements of a queue without using a loop(recursion-based)
+#implement a queue using two stacks
+#find the first non-repeating character in a stream of characters using a queue
+#implement a stack using two queues
+#sort elements in a queue0
